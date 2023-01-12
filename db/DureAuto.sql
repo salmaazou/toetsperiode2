@@ -35,19 +35,17 @@ CREATE TABLE IF NOT EXISTS `DureAuto` (
   `Merk` varchar(200) NOT NULL,
   `Model` varchar(200) NOT NULL,
   `Topsnelheid` smallint(4) NOT NULL,
-  `Prijs` varchar(200) NOT NULL,
+  `Prijs` int(200) NOT NULL,
   PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 
---
--- Gegevens worden geëxporteerd voor tabel `RichestPeople`
---
+
 
 INSERT INTO `DureAuto` (`Id`, `Merk`, `Model`, `Topsnelheid`, `Prijs`) VALUES
-(2, 'Mercedes', 'GW', 258, '200000'),
-(3, 'Bugattie', 'Vorig jaar', 374, '223445'),
-(4, 'Ferrari', '2018', 166, '7777777'),
-(5, 'Maseratie', 'Dit jaar 2023', 191, '456789');
+(2, 'Bugatti', '	La voiture noire', 420, '16500000'),
+(3, 'Rolls-Royce', 'Swaptail', 374, '223445'),
+(4, 'Bugatti', 'EB110', 166, '7777777'),
+(5, 'Mercedes-Benz', 'Maybach Exelero', 191, '6700000');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
