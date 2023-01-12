@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `DureAuto` (
   `Merk` varchar(200) NOT NULL,
   `Model` varchar(200) NOT NULL,
   `Topsnelheid` smallint(4) NOT NULL,
-  `Prijs` varchar(200) NOT NULL,
+  `Prijs` int(200) NOT NULL,
   PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 
